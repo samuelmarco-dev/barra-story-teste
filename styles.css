@@ -1,0 +1,73 @@
+.barra-story{
+    width: 614px;
+    background-color: turquoise;
+    height: 118px;
+    margin: 0 auto;
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    /* overflow: hidden; */
+    /* box-shadow: 0 0 3px rgb(77, 76, 74); */
+    /* z-index: 0; */
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stories-externo{
+    width: 66px;
+    height: 66px;
+    /* background-color: brown; */
+    border-radius: 50%;
+}
+
+.primeiro{
+    margin-left: 18px;
+}
+
+.outros{
+    margin-left: 14px;
+}
+
+.stories-interno{
+    width: 56px;
+    height: 56px;
+    /* background-color: chartreuse; */
+    border-radius: 50%;
+    position: fixed;
+    /* overflow: hidden; */
+}
+
+.stories-externo img{
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+}
+
+.stories-interno img{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+
+.icone{
+    width: 614px;
+    background-color: turquoise;
+    height: 118px;
+    margin: 0 auto;
+    margin-top: 34px;
+    /* margin-top: -118px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+}
+
+.icone ion-icon{
+    width: 32px;
+    height: 32px;
+    background-color: darkblue;
+}
